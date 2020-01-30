@@ -1,0 +1,56 @@
+.nav {
+  &__link {
+    position: relative;
+    margin-right: 15px;
+
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 24px;
+    line-height: 30px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    transition-duration: 0.3s;
+    transition-property: left, width, color;
+    transition-timing-function: ease;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    &::before {
+      content: '';
+      position: absolute;
+      left: 50%;
+      bottom: 0;
+      width: 0;
+      height: 2px;
+
+      background: #fff;
+
+      transition-duration: 0.3s;
+      transition-property: left, width, color;
+      transition-timing-function: ease;
+    }
+
+    &:hover,
+    &:focus {
+      text-decoration: none;
+      color: #0f1c20;
+      transition-duration: 0.8s;
+      transition-property: color;
+      transition-timing-function: ease;
+    }
+
+    &:hover::before,
+    &:focus::before {
+      left: 0;
+      width: 100%;
+      background: #0f1c20;
+
+      transition-duration: 0.5s;
+      transition-property: left, width, color;
+      transition-timing-function: ease;
+    }
+  }
+}
