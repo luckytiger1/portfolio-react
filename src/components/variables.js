@@ -5,6 +5,7 @@ import piskelCloneImg from '../img/piskel-clone.png';
 import repairDesignImg from '../img/repair-design-project.png';
 import virtualKeyboardImg from '../img/virtual-keyboard.png';
 import todoAppImg from '../img/todo-app.png';
+import songBirdsApp from '../img/songbirds-app.png';
 
 const projectTitles = [
   'Fancy Weather',
@@ -14,6 +15,7 @@ const projectTitles = [
   'ToDo App',
   'Repair Design Project',
   'Headphone SPA',
+  'Songbirds App',
 ];
 
 export const projectImgs = [
@@ -24,6 +26,7 @@ export const projectImgs = [
   todoAppImg,
   repairDesignImg,
   headphoneSpaImg,
+  songBirdsApp,
 ];
 
 export const descriptions = [
@@ -80,6 +83,13 @@ export const descriptions = [
     links: [
       'https://github.com/luckytiger1/headphone-site',
       'https://headphone-spa.netlify.com',
+    ],
+  },
+  {
+    props: ['React JS', 'HTML', 'SCSS'],
+    links: [
+      'https://github.com/rolling-scopes-school/tasks/blob/master/tasks/songbird.md',
+      'https://songbirds-rss.netlify.com',
     ],
   },
 ];
