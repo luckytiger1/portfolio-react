@@ -42,7 +42,17 @@ export default function Projects(props) {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    repository
+                    Technical requirements
+                  </a>
+                </li>
+                <li className="project__prop">
+                  <a
+                    className="project__link"
+                    href={`${descriptions[i].links[2]}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Repository
                   </a>
                 </li>
                 <li className="project__prop">
@@ -52,7 +62,7 @@ export default function Projects(props) {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    deploy
+                    Deploy
                   </a>
                 </li>
               </ul>
