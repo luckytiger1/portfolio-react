@@ -7,6 +7,7 @@ import virtualKeyboardImg from '../img/virtual-keyboard.png';
 import todoAppImg from '../img/todo-app.png';
 import songBirdsApp from '../img/songbirds-app.png';
 import bookStoreApp from '../img/bookstore-app.png';
+import photoStockApp from '../img/photo-stock-app.png';
 
 const projectTitles = [
   'Fancy Weather',
@@ -18,6 +19,7 @@ const projectTitles = [
   'Headphone SPA',
   'Songbirds App',
   'Bookstore App',
+  'Photo Stock App',
 ];
 
 export const projectImgs = [
@@ -30,6 +32,7 @@ export const projectImgs = [
   headphoneSpaImg,
   songBirdsApp,
   bookStoreApp,
+  photoStockApp,
 ];
 
 export const descriptions = [
