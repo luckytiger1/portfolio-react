@@ -6,7 +6,7 @@ import repairDesignImg from '../img/repair-design-project.png';
 import virtualKeyboardImg from '../img/virtual-keyboard.png';
 import todoAppImg from '../img/todo-app.png';
 import songBirdsApp from '../img/songbirds-app.png';
-import bookStoreApp from '../img/bookstore-app.png'
+import bookStoreApp from '../img/bookstore-app.png';
 
 const projectTitles = [
   'Fancy Weather',
@@ -17,7 +17,7 @@ const projectTitles = [
   'Repair Design Project',
   'Headphone SPA',
   'Songbirds App',
-  'Bookstore App'
+  'Bookstore App',
 ];
 
 export const projectImgs = [
@@ -29,7 +29,7 @@ export const projectImgs = [
   repairDesignImg,
   headphoneSpaImg,
   songBirdsApp,
-  bookStoreApp
+  bookStoreApp,
 ];
 
 export const descriptions = [
@@ -104,11 +104,19 @@ export const descriptions = [
     ],
   },
   {
-    props: ['React JS', 'HTML', 'SCSS'],
+    props: ['React JS', 'Redux', 'TypeScript', 'HTML', 'SCSS'],
     links: [
       'https://github.com/luckytiger1/react-bookstore/pull/1',
       'https://luckytiger-bookstore.netlify.com/',
       'https://github.com/luckytiger1/react-bookstore/tree/bookStore',
+    ],
+  },
+  {
+    props: ['React JS', 'Redux', 'TypeScript', 'HTML', 'SCSS'],
+    links: [
+      'https://www.figma.com/file/oEAOMxrxnwwnSttLX8FwoA/Rocket-frontend-test-(Copy)?node-id=2%3A2',
+      'http://photo-stock-demo.herokuapp.com/',
+      'https://github.com/luckytiger1/photo-stock-app/tree/photo-stock',
     ],
   },
 ];
