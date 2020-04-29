@@ -10,8 +10,10 @@ export default function Header() {
         <header className="header">
           <Navbar title="header" />
           <div className="header__info">
-            <h1>Daniyar Ketebay</h1>
-            <h4>Front-End Developer</h4>
+            <div className="text">
+              Hello I'm <span className="highlight">Daniyar Ketebay</span>. I'm
+              a front-end developer.
+            </div>
           </div>
         </header>
       </Container>

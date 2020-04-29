@@ -154,15 +154,21 @@
 }
 
 .projects {
-  display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   max-width: 1200px;
-  margin: auto;
-
+  margin: 30px auto;
   &__wrap {
     width: 100%;
   }
+  &__title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 34px;
+    font-weight: 600;
+  }
+}
+.projects_wrapper {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 @media (max-width: 800px) {
