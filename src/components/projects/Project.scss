@@ -169,6 +169,7 @@
 .projects_wrapper {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 @media (max-width: 800px) {
